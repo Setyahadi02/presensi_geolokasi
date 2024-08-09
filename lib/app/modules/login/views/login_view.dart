@@ -41,7 +41,7 @@ class LoginView extends GetView<LoginController> {
                 child: Container(
                   margin: EdgeInsets.only(left: 30, top: 60),
                   child: Text(
-                    "",
+                    "login",
                     style: TextStyle(
                         fontFamily: 'Pacifico',
                         fontSize: 30,
