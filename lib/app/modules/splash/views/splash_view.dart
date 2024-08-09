@@ -13,7 +13,7 @@ class SplashView extends StatelessWidget {
         child: Container(
           width: 200,
           child: Text(
-            "Selamat datang di SIPADU ",
+            "Selamat datang  ",
             style: TextStyle(
               fontSize: 25,
               fontWeight: FontWeight.bold,

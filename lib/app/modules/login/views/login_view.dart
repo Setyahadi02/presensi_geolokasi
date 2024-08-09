@@ -41,7 +41,7 @@ class LoginView extends GetView<LoginController> {
                 child: Container(
                   margin: EdgeInsets.only(left: 30, top: 60),
                   child: Text(
-                    "SIPADU STIS",
+                    "",
                     style: TextStyle(
                         fontFamily: 'Pacifico',
                         fontSize: 30,
@@ -69,18 +69,18 @@ class LoginView extends GetView<LoginController> {
                 decoration: BoxDecoration(
                     shape: BoxShape.circle, color: Colors.grey[200])),
           ),
-          Container(
-            margin: EdgeInsets.only(bottom: 50),
-            child: Align(
-              alignment: Alignment.center,
-              child: Image(
-                image: AssetImage("assets/images/stis.png"),
-                // image: AssetImage("../assets/images/stis.png"),
-                width: 120,
-                height: 120,
-              ),
-            ),
-          ),
+          // Container(
+          //   margin: EdgeInsets.only(bottom: 100),
+          //   child: Align(
+          //     alignment: Alignment.center,
+          //     child: Image(
+          //       image: AssetImage("assets/images/stis.png"),
+          //       // image: AssetImage("../assets/images/stis.png"),
+          //       width: 120,
+          //       height: 120,
+          //     ),
+          //   ),
+          // ),
           Align(
             alignment: Alignment.bottomCenter,
             child: ListView(
